@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="108d7198-131c-4929-a2d7-3020c603356c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1610366457471</updated>
       <workItem from="1610366460296" duration="3375000" />
-      <workItem from="1610541156397" duration="297000" />
+      <workItem from="1610541156397" duration="636000" />
     </task>
     <servers />
   </component>
