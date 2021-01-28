@@ -2,7 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="108d7198-131c-4929-a2d7-3020c603356c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/AppointBar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AppointBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AppointButton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AppointButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/NavbarDropdown.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/NavbarDropdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Behandelingen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Behandelingen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Cadeaubon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Cadeaubon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Contact.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Gezichtsbehandelingen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Gezichtsbehandelingen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Harsen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Harsen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Manicure.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Manicure.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Massage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Massage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/OverMij.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/OverMij.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +65,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
@@ -58,7 +94,8 @@
       <option name="presentableId" value="Default" />
       <updated>1610366457471</updated>
       <workItem from="1610366460296" duration="3375000" />
-      <workItem from="1610541156397" duration="1026000" />
+      <workItem from="1610541156397" duration="7111000" />
+      <workItem from="1611827164757" duration="2281000" />
     </task>
     <servers />
   </component>
@@ -79,5 +116,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Pages and Router added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pages and Router added" />
   </component>
 </project>
