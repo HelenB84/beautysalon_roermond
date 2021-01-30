@@ -2,6 +2,5 @@ import React from 'react';
 
 export default function Gezichtsbehandelingen(){
     return(
-        <div>GEZICHTSBEHANDELINGEN</div>
-    );
+        <h1 className='gezichtsbehandelingen'>GEZICHTSBEHANDELINGEN</h1>    );
 };

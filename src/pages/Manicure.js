@@ -2,6 +2,5 @@ import React from 'react';
 
 export default function Manicure(){
     return(
-        <div>MANICURE</div>
-    );
+        <h1 className='manicure'>Manicure</h1>    );
 };

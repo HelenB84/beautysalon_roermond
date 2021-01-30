@@ -2,6 +2,6 @@ import React from 'react';
 
 export default function Harsen(){
     return(
-        <div>HARSEN</div>
+        <h1 className='harsen'>HARSEN</h1>
     );
 };

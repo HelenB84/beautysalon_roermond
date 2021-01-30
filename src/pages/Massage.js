@@ -2,6 +2,5 @@ import React from 'react';
 
 export default function Massage(){
     return(
-        <div>MASSAGE</div>
-    );
+        <h1 className='massage'>MASSAGE</h1>    );
 };

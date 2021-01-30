@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="108d7198-131c-4929-a2d7-3020c603356c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AppointButton.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppointButton.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AppointButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppointButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MenuItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavbarDropdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavbarDropdown.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavbarDropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavbarDropdown.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Behandelingen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Behandelingen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Cadeaubon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Cadeaubon.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Contact.js" afterDir="false" />
@@ -39,15 +48,23 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets" />
+      <recent name="$PROJECT_DIR$/src/components/Navbar" />
       <recent name="$PROJECT_DIR$/src/pages" />
     </key>
   </component>
@@ -78,7 +95,10 @@
       <workItem from="1610541156397" duration="7111000" />
       <workItem from="1611827164757" duration="3081000" />
       <workItem from="1611832333374" duration="1086000" />
-      <workItem from="1611833752615" duration="1457000" />
+      <workItem from="1611833752615" duration="7987000" />
+      <workItem from="1611913153950" duration="14000" />
+      <workItem from="1611915247226" duration="9779000" />
+      <workItem from="1611942640931" duration="2764000" />
     </task>
     <task id="LOCAL-00001" summary="Pages and Router added">
       <created>1611830693207</created>
@@ -87,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611830693207</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added pages and Routes">
+      <created>1611838349371</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1611838349371</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +135,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Pages and Router added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pages and Router added" />
+    <MESSAGE value="added pages and Routes" />
+    <option name="LAST_COMMIT_MESSAGE" value="added pages and Routes" />
   </component>
 </project>
