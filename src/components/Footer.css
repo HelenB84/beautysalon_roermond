@@ -1,0 +1,44 @@
+container{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    flex: 1;
+}
+
+.ft-main{
+    padding:1.25rem 1.875rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ft-main-item{
+    padding:1.25rem;
+    min-width:12.5rem;
+}
+
+footer{
+    background-color: #648081;
+    color: #ffffff;
+    line-height: 1.5;
+}
+
+.ft-title{
+    font-size: 1rem;
+    padding-bottom: 0.625rem;
+}
+
+.bottom-logo{
+    height: 90px;
+    width: 256px;
+}
+
+@media only screen and (min-width: 29.8125rem /*477px*/) {
+    .ft-main {
+        justify-content: space-around;
+    }
+}
+@media only screen and (min-width: 77.5rem /*1240px*/ ) {
+    .ft-main {
+        justify-content: space-evenly;
+    }
+}

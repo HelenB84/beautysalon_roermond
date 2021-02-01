@@ -1,0 +1,45 @@
+container{
+    display: flex;
+    min-height: 200vh;
+    flex-direction: column;
+    flex: 1;
+}
+
+.ab-p{
+    padding-bottom: 1.25rem;
+    padding-left: 1.25rem;
+}
+
+.ab-main{
+    padding: 1.25rem 1.875rem;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url("../assets/appointbarpic.png");
+    background-size: 100%;
+    background-position: right;
+}
+
+.ab-main-item{
+    padding: 1.25rem;
+    min-width: 12.5rem;
+    color: #648081;
+}
+
+.ab-title{
+    font-size: 2.25rem;
+    padding: 0.625rem;
+}
+
+@media only screen and (min-width: 29.8125rem /*477px*/) {
+    .ab-main {
+        justify-content: space-around;
+    }
+}
+@media only screen and (min-width: 77.5rem /*1240px*/ ) {
+    .ab-main {
+        justify-content: space-evenly;
+    }
+}
+
+
+

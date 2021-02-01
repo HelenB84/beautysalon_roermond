@@ -11,6 +11,9 @@ import Gezichtsbehandelingen from "./pages/Gezichtsbehandelingen";
 import Harsen from "./pages/Harsen";
 import Massage from "./pages/Massage";
 import Manicure from "./pages/Manicure";
+import Footer from "./components/Footer";
+import Appointbar from "./components/AppointBar";
+
 
 function App() {
   return (
@@ -45,6 +48,8 @@ function App() {
             <Home/>
         </Route>
      </Switch>
+     <Appointbar/>
+     <Footer/>
       </>
   );
 }

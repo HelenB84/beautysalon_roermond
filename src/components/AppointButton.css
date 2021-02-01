@@ -11,8 +11,9 @@
     color: white;
     background-color: var(--primary);
     cursor:pointer;
-    margin-right: 25px;
+    margin: 25px;
     width: 300px;
+    position: center;
 
 }
 
@@ -22,5 +23,4 @@
     background-color: white;
     color:#648081;
     border: 2px solid #648081;
-
 }
