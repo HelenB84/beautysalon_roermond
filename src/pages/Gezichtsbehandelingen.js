@@ -1,6 +1,11 @@
 import React from 'react';
+import Navbar from "../components/Navbar";
 
 export default function Gezichtsbehandelingen(){
     return(
-        <h1 className='gezichtsbehandelingen'>GEZICHTSBEHANDELINGEN</h1>    );
+        <>
+        <Navbar/>
+        <h1 className='gezichtsbehandelingen'>GEZICHTSBEHANDELINGEN</h1>
+            </>
+            );
 };

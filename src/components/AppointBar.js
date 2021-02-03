@@ -5,7 +5,7 @@ import AppointButton from "./AppointButton";
 export default function Appointbar(){
     return(
         <>
-        <div className='container'>
+        <div>
             <section className='ab-main'>
                 <div className='ab-main-item'>
                     <h2 className='ab-title'>MAAK EEN AFSPRAAK</h2>

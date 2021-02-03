@@ -1,7 +1,12 @@
 import React from 'react';
+import './Home.css'
+import Header from "../components/Header";
 
 export default function Home(){
     return(
-        <h1 className='home'>HOME</h1>
+        <>
+            <Header/>
+        <h1 className='home'>BEHANDELINGEN</h1>
+            </>
     );
 };

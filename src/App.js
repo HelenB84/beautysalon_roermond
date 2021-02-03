@@ -6,7 +6,6 @@ import Behandelingen from './pages/Behandelingen.js';
 import OverMij from "./pages/OverMij";
 import Contact from "./pages/Contact";
 import Cadeaubon from "./pages/Cadeaubon";
-import Navbar from "./components/Navbar";
 import Gezichtsbehandelingen from "./pages/Gezichtsbehandelingen";
 import Harsen from "./pages/Harsen";
 import Massage from "./pages/Massage";
@@ -15,42 +14,42 @@ import Footer from "./components/Footer";
 import Appointbar from "./components/AppointBar";
 
 
+
 function App() {
   return (
-      <>
-    <Navbar/>
+     <>
     <Switch>
-        <Route path="/behandelingen">
+        <Route path="/behandelingen" component={Behandelingen}>
             <Behandelingen/>
         </Route>
-        <Route path="/gezichtsbehandelingen">
+        <Route path="/gezichtsbehandelingen" component={Gezichtsbehandelingen}>
             <Gezichtsbehandelingen/>
         </Route>
-        <Route path="/harsen">
+        <Route path="/harsen" component={Harsen}>
             <Harsen/>
         </Route>
-        <Route path="/massage">
+        <Route path="/massage" component={Massage}>
             <Massage/>
         </Route>
-        <Route path="/manicure">
+        <Route path="/manicure" component={Manicure}>
             <Manicure/>
         </Route>
-        <Route path="/over_mij">
+        <Route path="/over_mij" component={OverMij}>
             <OverMij/>
         </Route>
-        <Route path="/contact">
+        <Route path="/contact" component={Contact}>
             <Contact/>
         </Route>
-        <Route path="/cadeaubon">
+        <Route path="/cadeaubon" component={Cadeaubon}>
             <Cadeaubon/>
         </Route>
-        <Route path='/'>
+        <Route path='/' component={Home}>
             <Home/>
         </Route>
      </Switch>
      <Appointbar/>
      <Footer/>
-      </>
+    </>
   );
 }
 

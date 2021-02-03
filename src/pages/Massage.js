@@ -1,6 +1,11 @@
 import React from 'react';
+import Navbar from "../components/Navbar";
 
 export default function Massage(){
     return(
-        <h1 className='massage'>MASSAGE</h1>    );
+        <>
+        <Navbar/>
+        <h1 className='massage'>MASSAGE</h1>
+        </>
+    );
 };
