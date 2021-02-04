@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="108d7198-131c-4929-a2d7-3020c603356c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppointBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppointBar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppointBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppointBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppointButton.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppointButton.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Behandelingen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Behandelingen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Cadeaubon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Cadeaubon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Gezichtsbehandelingen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Gezichtsbehandelingen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Harsen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Harsen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Manicure.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Manicure.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Massage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Massage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OverMij.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OverMij.js" afterDir="false" />
-    </list>
+    <list default="true" id="108d7198-131c-4929-a2d7-3020c603356c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +43,7 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -107,7 +88,8 @@
       <workItem from="1611915247226" duration="9779000" />
       <workItem from="1611942640931" duration="21935000" />
       <workItem from="1612193338603" duration="6717000" />
-      <workItem from="1612346426970" duration="4634000" />
+      <workItem from="1612346426970" duration="17746000" />
+      <workItem from="1612437581878" duration="619000" />
     </task>
     <task id="LOCAL-00001" summary="Pages and Router added">
       <created>1611830693207</created>
@@ -137,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612171777374</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="completed Header">
+      <created>1612353656966</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1612353656967</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

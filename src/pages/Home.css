@@ -1,2 +1,146 @@
+.behandelingen-container{
+    display: flex;
+    flex:1;
+    min-height: 50vh;
+    padding: 2rem 3rem;
+    width: auto;
+    align-items: center;
+    flex-direction: column;
+    background-color: #D9E0E0;
+}
+
+.behandelingen-home{
+    color: #648081;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.behandelingen-home-text1 {
+    color: #8BA0A1;
+    font-size: 1.1rem;
+    font-weight: 400;
+    padding-bottom: 1.2rem;
+    padding-top: 1.2rem;
+}
+
+.pics-home{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    min-width: 1255px;
+    align-content: center;
+}
+
+.massage, .harsen, .nails, .masker{
+    max-height: 250px;
+    max-width: 250px;
+    margin-left: 85px;
+}
+
+.texts-home{
+    display: flex;
+    justify-items: start;
+    color: #648081;
+    min-width: 1170px;
+    margin-left: 8px;
+    margin-top: 24px;
+    text-align: center;
+}
+
+.face-text, .massage-text, .waxing-text, .nails-text{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.face-text{
+    line-height: 32px;
+    min-height: 21px;
+    min-width: 228px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.massage-text{
+    align-self: flex-end;
+    line-height: 32px;
+    margin-left: 190px;
+    min-height: 21px;
+    min-width: 84px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.waxing-text{
+    align-content: center;
+    line-height: 32px;
+    margin-left: 260px;
+    min-height: 21px;
+    min-width: 72px;
+    text-align: center;
+}
+
+.nails-text{
+    line-height: 32px;
+    margin-left: 260px;
+    min-height: 21px;
+    min-width: 92px;
+    text-align: center;
+}
+
+.container-over-mij{
+    display: flex;
+    justify-content: center;
+    margin-right: 13px;
+    margin-top: 106px;
+    margin-bottom: 106px;
+    min-width: 953px;
+}
+
+.ilse-salon{
+    box-shadow: -40px -40px 0 -5px #648081;
+}
+
+.home-text-over_mij{
+    background-color: #D9E0E0;
+    height: 300px;
+    width: 350px;
+    position: absolute;
+    margin-left: 30rem;
+    margin-top: 200px;
+}
+
+.over-mij-title{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    color: #648081;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.over-mij-p{
+    color: #648081;
+    font-size: 1rem;
+    font-weight: 400;
+    justify-content: center;
+    margin:10px;
+}
+
+
+
+
+@media only screen and (min-width: 29.8125rem /*477px*/) {
+    .pics-home {
+        justify-content: space-around;
+
+    }
+}
+@media only screen and (min-width: 77.5rem /*1240px*/ ) {
+    .pics-home {
+        justify-content: space-evenly;
+    }
+}
+
+
 
 
