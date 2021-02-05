@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="108d7198-131c-4929-a2d7-3020c603356c" name="Default Changelist" comment="" />
+    <list default="true" id="108d7198-131c-4929-a2d7-3020c603356c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/acne_behandeling.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/hennabrows.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AppointButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppointButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Behandelingen.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Behandelingen.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Behandelingen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Behandelingen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/OverMij.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OverMij.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,6 +106,8 @@
       <workItem from="1612193338603" duration="6717000" />
       <workItem from="1612346426970" duration="17746000" />
       <workItem from="1612437581878" duration="619000" />
+      <workItem from="1612443100051" duration="1854000" />
+      <workItem from="1612445459147" duration="7409000" />
     </task>
     <task id="LOCAL-00001" summary="Pages and Router added">
       <created>1611830693207</created>
@@ -126,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612353656967</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added Homepage">
+      <created>1612443308145</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1612443308145</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +176,7 @@
     <MESSAGE value="Added NavBar" />
     <MESSAGE value="Added Footer and AppointBar" />
     <MESSAGE value="completed Header" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed Header" />
+    <MESSAGE value="Added Homepage" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Homepage" />
   </component>
 </project>

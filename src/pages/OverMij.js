@@ -6,7 +6,6 @@ export default function OverMij(){
         <>
         <Navbar/>
             <h1 className='over-mij'>OVER MIJ</h1>
-
             </>
     );
 };

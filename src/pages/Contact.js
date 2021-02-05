@@ -7,5 +7,5 @@ export default function Contact(){
         <Navbar/>
         <h1 className='contact'>CONTACT</h1>
         </>
-    );
+    )
 }

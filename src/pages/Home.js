@@ -37,12 +37,8 @@ export default function Home(){
                     Op deze website kunt u in uw eigen tempo kennis maken met de
                     verschillende  behandelingen, die ik in mijn salon uitvoer. <br/><br/>
                     Als er vragen zijn, kunt u natuurlijk  altijd contact met mij opnemen.</p>
-
                 </div>
             </div>
-
-
-
             </>
     );
 };
