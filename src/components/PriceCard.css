@@ -1,0 +1,34 @@
+.price-card{
+    background-color: #B2C0C0;
+    border: 1px solid #648081;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width:300px;
+    height: auto;
+}
+
+.product-name, .product-price{
+    color: #648081;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.product-name{
+    margin-top: 10px;
+}
+
+.product-description, .product-duration, .product-extra-description{
+    color: #ffffff;
+    margin: 20px;
+    text-align: start;
+    font-size: 1rem;
+}
+
+.product-duration{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+

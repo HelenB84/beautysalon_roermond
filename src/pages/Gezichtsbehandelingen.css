@@ -1,0 +1,33 @@
+.face-treatment-title{
+    font-size: 3rem;
+    color: #648081;
+    text-align: center;
+    margin-top: 8.5rem;
+}
+
+.face-treatment-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.face-treatment-text{
+    text-align: center;
+    width: 57.315rem;
+    height: 11.1875rem;
+    margin-right: 2.5rem;
+    margin-top: 0.5rem;
+    color: #648081;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.container-pricecards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 1366px;
+    height: auto;
+}
