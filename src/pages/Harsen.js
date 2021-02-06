@@ -40,7 +40,6 @@ export default function Harsen(){
                         title= 'BOVEN- EN ONDERBENEN HARSEN'
                         price= '€44'
                     />
-
                 </div>
             </div>
         </>

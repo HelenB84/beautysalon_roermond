@@ -7,18 +7,12 @@
     <list default="true" id="108d7198-131c-4929-a2d7-3020c603356c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Behandelingen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Behandelingen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Cadeaubon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Cadeaubon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Gezichtsbehandelingen.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Gezichtsbehandelingen.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Gezichtsbehandelingen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Gezichtsbehandelingen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Harsen.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Harsen.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PriceCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PriceCard.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Harsen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Harsen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Manicure.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Manicure.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Manicure.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Manicure.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Massage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Massage.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Massage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Massage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/OverMij.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/OverMij.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +104,7 @@
       <workItem from="1612437581878" duration="619000" />
       <workItem from="1612443100051" duration="1854000" />
       <workItem from="1612445459147" duration="11366000" />
-      <workItem from="1612535458654" duration="9554000" />
+      <workItem from="1612535458654" duration="10244000" />
     </task>
     <task id="LOCAL-00001" summary="Pages and Router added">
       <created>1611830693207</created>
@@ -168,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612609432449</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added facetreatment page and waxing page">
+      <created>1612617810765</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1612617810765</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +197,7 @@
     <MESSAGE value="Added Homepage" />
     <MESSAGE value="added Treatment page" />
     <MESSAGE value="added facetreatment page" />
-    <option name="LAST_COMMIT_MESSAGE" value="added facetreatment page" />
+    <MESSAGE value="added facetreatment page and waxing page" />
+    <option name="LAST_COMMIT_MESSAGE" value="added facetreatment page and waxing page" />
   </component>
 </project>
