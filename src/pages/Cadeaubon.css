@@ -1,0 +1,42 @@
+.gift-container-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #D9E0E0;
+}
+
+.gift-title{
+    font-size: 3rem;
+    color: #648081;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.gift-text{
+    color: #648081;
+    width: 300px;
+    height: auto;
+    margin: 2rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.gift-image{
+    width: 550px;
+    height: 365px;
+    margin-bottom: -5rem;
+}
+
+.gift-container-2{
+    width: auto;
+    height: 20rem;
+}
+
+.gift-container{
+    background-color: #D9E0E0;
+    width: auto;
+    height: 6rem;
+}
+
+
