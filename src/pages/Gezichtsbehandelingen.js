@@ -1,12 +1,10 @@
 import React from 'react';
-import Navbar from "../components/Navbar";
 import './Gezichtsbehandelingen.css'
 import PriceCard from "../components/PriceCard";
 
 export default function Gezichtsbehandelingen(){
     return(
         <>
-        <Navbar/>
         <h1 className='face-treatment-title'>GEZICHTSBEHANDELINGEN</h1>
             <div className='face-treatment-container'>
                 <h2 className='face-treatment-text'>Waarom een gezichtsbehandeling?<br/><br/>Een gezichtsbehandeling is bedoeld om uw gezicht grondig te reinigen,

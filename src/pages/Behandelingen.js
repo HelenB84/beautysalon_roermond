@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from "../components/Navbar";
 import './Behandelingen.css'
 import masker from '../assets/masker.jpg'
 import harsen from '../assets/harsen.jpg'
@@ -12,7 +11,6 @@ import nails from '../assets/nails.jpg'
 export default function Behandelingen(){
     return(
         <>
-        <Navbar/>
         <h1 className='treatment-title'>BEHANDELINGEN</h1>
         <div className='container-treatments-box'>
             <div className='treatments-box'>

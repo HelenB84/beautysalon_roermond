@@ -12,12 +12,12 @@ import Massage from "./pages/Massage";
 import Manicure from "./pages/Manicure";
 import Footer from "./components/Footer";
 import Appointbar from "./components/AppointBar";
-
-
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
      <>
+    <Navbar/>
     <Switch>
         <Route path="/behandelingen" component={Behandelingen}>
             <Behandelingen/>
