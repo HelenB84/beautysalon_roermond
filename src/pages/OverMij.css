@@ -1,0 +1,113 @@
+.about-me-title{
+    font-size: 3rem;
+    color: #648081;
+    text-align: center;
+    margin-top: 8.5rem;
+    margin-bottom: 1.25rem;
+}
+
+.about-me-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10rem;
+    margin-top: 4rem;
+}
+
+.ilse-salon-about-me{
+    box-shadow: -50px -50px 0 -5px #648081;
+    width: 700px;
+    height: 600px;
+}
+
+.about-me-text{
+    background-color: #D9E0E0;
+    height: auto;
+    width: 500px;
+    position: absolute;
+    margin-left: 45rem;
+    margin-top: 300px;
+}
+
+.about-me-title-text{
+    margin-top: 5px;
+    text-align: center;
+    color: #648081;
+    font-size: 1.50rem;
+    font-weight: 600;
+}
+
+.about-me-undertitle-text{
+    text-align: center;
+    color: #648081;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-top: -20px;
+    margin-bottom:20px;
+}
+
+.about-me-p{
+    color: #648081;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: start;
+    margin:10px;
+}
+
+.signature{
+    font-family: Abuget;
+    font-size: 3.43rem;
+    font-weight: 400;
+    text-align: center;
+    color: #648081;
+}
+
+.brands-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 8rem;
+    margin-top: 6rem;
+}
+
+.brands-title{
+    color: #648081;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.image-brand-1{
+    width: 460px;
+    height: 300px;
+}
+
+.image-brand-2{
+    width: 300px;
+    height: 260px;
+}
+
+.salon-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #B2C0C0;
+}
+
+.salon-title {
+    color: #648081;
+    font-size: 2.5rem;
+    text-align: center;
+    height: 5rem;
+}
+
+.chair-salon, .salon-inside{
+    margin-bottom: 5rem;
+    margin-top: 3rem;
+    width: 350px;
+    height: 450px;
+    border-radius: 25px;
+}

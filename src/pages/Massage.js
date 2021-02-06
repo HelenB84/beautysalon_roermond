@@ -5,7 +5,7 @@ import './Massage.css'
 export default function Massage(){
     return(
         <>
-            <h1 className='massage-title'>HARSEN</h1>
+            <h1 className='massage-title'>MASSAGE</h1>
             <div className='massage-container'>
                 <div className='container-pricecards'>
                     <PriceCard
