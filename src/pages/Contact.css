@@ -1,0 +1,54 @@
+.container-contact{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    width: auto;
+    background-color: #D9E0E0;
+}
+
+.contact-title{
+    font-size: 3rem;
+    color: #648081;
+    text-align: center;
+    margin-top: 8.5rem;
+    background-color: #D9E0E0;
+}
+
+.container-contactform{
+    background-color: #8BA0A1;
+    height: auto;
+    width: 650px;
+    margin-top: 3rem;
+}
+
+ .contactform-title{
+    font-size: 2.5rem;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.container-contact-details{
+    height: auto;
+    width: 500px;
+    margin-left: 3rem;
+}
+
+.contact-details-titles, .contact-details-titles-1{
+    font-size: 1.5rem;
+    color: #648081;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.contact-details-titles-1{
+    margin-top: 6rem;
+}
+
+.contact-details-text{
+    text-align: center;
+    color: #648081;
+    font-size: 1rem;
+    margin-top: 5px;
+}
