@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import { Switch, Route } from "react-router-dom";
+import { Switch, Route, Redirect } from "react-router-dom";
 import Home from './pages/Home';
 import Behandelingen from './pages/Behandelingen.js';
 import OverMij from "./pages/OverMij";
@@ -14,12 +14,23 @@ import Footer from "./components/Footer";
 import Appointbar from "./components/AppointBar";
 import Navbar from "./components/Navbar";
 import Dashboard from "./pages/Dashboard";
+import {useAuthState} from './context/AuthContext';
+import Login from "./pages/Login";
+import Signup from "./pages/Signup";
 
 function App() {
+    const {isAuthenticated} = useAuthState();
+
   return (
      <>
     <Navbar/>
     <Switch>
+        <Route path="/login" comp={Login}>
+            <Login/>
+        </Route>
+        <Route path="/signup" comp={Signup}>
+            <Signup/>
+        </Route>
         <Route path="/behandelingen" comp={Behandelingen}>
             <Behandelingen/>
         </Route>
@@ -45,7 +56,7 @@ function App() {
             <Cadeaubon/>
         </Route>
         <Route path={"/dashboard"} comp={Dashboard}>
-            <Dashboard/>
+            {isAuthenticated ? <Dashboard/> : <Redirect to="/login/"/>}
         </Route>
         <Route path='/' comp={Home}>
             <Home/>

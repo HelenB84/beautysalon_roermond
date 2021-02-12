@@ -5,13 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="108d7198-131c-4929-a2d7-3020c603356c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/Dashboard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/LoginForm.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/LoginForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SignupButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SignupForm.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SignupForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/AuthContext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Signup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Signup.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ContactForm.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactForm.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ContactForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Dashboard.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,9 +36,6 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="1mvG3bLOLgjFRlgq5dNNhBXYJ5e" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -62,6 +67,7 @@
       <recent name="$PROJECT_DIR$/src/assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$/src/components/Navbar" />
       <recent name="$PROJECT_DIR$/src/pages" />
@@ -113,7 +119,7 @@
       <workItem from="1612952880034" duration="14953000" />
       <workItem from="1613040226181" duration="150000" />
       <workItem from="1613040630533" duration="2071000" />
-      <workItem from="1613051036181" duration="3787000" />
+      <workItem from="1613051036181" duration="11468000" />
     </task>
     <task id="LOCAL-00001" summary="Pages and Router added">
       <created>1611830693207</created>
@@ -206,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612817381298</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="added dashboard">
+      <created>1613136390060</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1613136390060</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,6 +253,7 @@
     <MESSAGE value="added giftcard page" />
     <MESSAGE value="added contactform" />
     <MESSAGE value="added dashboard" />
-    <option name="LAST_COMMIT_MESSAGE" value="added dashboard" />
+    <MESSAGE value="added authentication, login and signup forms and pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="added authentication, login and signup forms and pages" />
   </component>
 </project>

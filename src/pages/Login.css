@@ -1,0 +1,15 @@
+.login-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 100vh;
+    width: auto;
+}
+
+.login-title{
+    font-size: 3rem;
+    color: #648081;
+    text-align: center;
+}

@@ -1,6 +1,8 @@
 import React, {useState, useEffect} from 'react';
 import './Dashboard.css'
 import axios from 'axios';
+import {useAuthState} from "../context/AuthContext";
+import LoginSignupButton from "../components/SignupButton";
 
 export default function Dashboard() {
     const [appointments, setAppointments] = useState(null);
@@ -28,6 +30,7 @@ export default function Dashboard() {
     return(
         <>
         <h1 className='dashboard-title'>DASHBOARD</h1>
+        <LoginSignupButton/>
         <div className='container-dashboard'>
             <h3 className='dashboard-text'>VOORNAAM:{appointmentsArray && appointmentsArray.map(appointment => <h3 className='dashboard-firstname' key={appointment.firstName}>{appointment.firstName}</h3>)}</h3>
             <br/>

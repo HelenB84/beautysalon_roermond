@@ -1,0 +1,16 @@
+.signup-form {
+    display: block;
+    margin: 10px;
+    color: #648081;
+}
+
+.logout-button{
+    color: #ffffff;
+    background-color: #648081;
+    margin-left: 1rem;
+    border: #648081;
+    border-radius: 15px;
+    padding: 20px 25px;
+    font-size: 1rem;
+    cursor: pointer;
+}
