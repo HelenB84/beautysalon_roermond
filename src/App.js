@@ -13,37 +13,41 @@ import Manicure from "./pages/Manicure";
 import Footer from "./components/Footer";
 import Appointbar from "./components/AppointBar";
 import Navbar from "./components/Navbar";
+import Dashboard from "./pages/Dashboard";
 
 function App() {
   return (
      <>
     <Navbar/>
     <Switch>
-        <Route path="/behandelingen" component={Behandelingen}>
+        <Route path="/behandelingen" comp={Behandelingen}>
             <Behandelingen/>
         </Route>
-        <Route path="/gezichtsbehandelingen" component={Gezichtsbehandelingen}>
+        <Route path="/gezichtsbehandelingen" comp={Gezichtsbehandelingen}>
             <Gezichtsbehandelingen/>
         </Route>
-        <Route path="/harsen" component={Harsen}>
+        <Route path="/harsen" comp={Harsen}>
             <Harsen/>
         </Route>
-        <Route path="/massage" component={Massage}>
+        <Route path="/massage" comp={Massage}>
             <Massage/>
         </Route>
-        <Route path="/manicure" component={Manicure}>
+        <Route path="/manicure" comp={Manicure}>
             <Manicure/>
         </Route>
-        <Route path="/over_mij" component={OverMij}>
+        <Route path="/over_mij" comp={OverMij}>
             <OverMij/>
         </Route>
-        <Route path="/contact" component={Contact}>
+        <Route path="/contact" comp={Contact}>
             <Contact/>
         </Route>
-        <Route path="/cadeaubon" component={Cadeaubon}>
+        <Route path="/cadeaubon" comp={Cadeaubon}>
             <Cadeaubon/>
         </Route>
-        <Route path='/' component={Home}>
+        <Route path={"/dashboard"} comp={Dashboard}>
+            <Dashboard/>
+        </Route>
+        <Route path='/' comp={Home}>
             <Home/>
         </Route>
      </Switch>

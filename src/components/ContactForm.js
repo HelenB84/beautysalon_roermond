@@ -1,34 +1,59 @@
-import React from "react";
+import React, {useState} from "react";
 import { useForm } from "react-hook-form";
+import axios from "axios";
 import './ContactForm.css'
 
 export default function ContactForm() {
-    const { register, handleSubmit, errors } = useForm();
-    const onSubmit = data => console.log(data);
+    const { register, handleSubmit, errors, reset } = useForm();
 
+    const [createAppoinmentSuccess, setCreateAppointmentSuccess] = useState(false);
+    const [loading, toggleLoading]= useState(false);
+    const [error, setError]= useState('');
+
+    async function onSubmit(data){
+        console.log(data)
+        toggleLoading(true);
+        setError('');
+
+        try {
+            const response = await axios.post('https://beautysalonroermond-b2c5f-default-rtdb.firebaseio.com/afspraken.json', data);
+
+            console.log(response)
+
+            if (response.status === 200){
+                setCreateAppointmentSuccess(true);
+            }
+        } catch (e) {
+            console.error(e);
+            if (e.message.includes('400')){
+                setError('Er is iets misgegaan bij het verzenden. Probeer het opnieuw');
+            }
+        }
+        toggleLoading(false);
+        reset();
+    }
 
     return (
+        <>
+        <div className='success'>
+        {createAppoinmentSuccess === true && <p>Bedankt voor uw interesse. Ik neem zo snel mogelijk contact met u op.</p>}
+        </div>
     <form onSubmit={handleSubmit(onSubmit)} className='contactform'>
         <label className='label-title' htmlFor="firstName">Voornaam</label>
-        <input name={"firstName"} type='text' ref={register} />
+        <input name={"firstName"} type='text' ref={register({required:true})} />
+        {errors.firstName && <span>Dit veld is verplicht</span>}
         <label className='label-title' htmlFor="lastName">Achternaam</label>
         <input name={"lastName"} type='text' ref={register({ required: true })} />
+        {errors.lastName && <span>Dit veld is verplicht</span>}
         <label className='label-title' htmlFor="phoneNumber">Telefoonnummer</label>
-        <input name={'phoneNumber'} type="tel" ref={register}/>
+        <input name={'phoneNumber'} type="tel" ref={register({required:true})}/>
+        {errors.phoneNumber && <span>Dit veld is verplicht</span>}
         <label className='label-title' htmlFor="email">Emailadres</label>
-        <input name={'email'} type="email" ref={register}/>
-        <label className='label-title' htmlFor="prefDay">Voorkeursdag</label>
-        <div className='prefDays'>
-            <input name={'prefDay'} type="checkbox" id="dag1" value="Monday" ref={register}/>
-            <label className='check-prefday' htmlFor="dag1">Maandag</label>
-            <input name={'prefDay'} type="checkbox" id="dag2" value="Tuesday" ref={register}/>
-            <label className='check-prefday' htmlFor="dag2">Dinsdag</label>
-            <input name={'prefDay'} type="checkbox" id="dag3" value="Wednesday" ref={register}/>
-            <label className='check-prefday' htmlFor="dag3">Woensdag</label>
-            <input name={'prefDay'} type="checkbox" id="dag4" value="Thursday" ref={register}/>
-            <label className='check-prefday' htmlFor="dag4">Donderdag</label>
-            <input name={'prefDay'} type="checkbox" id="dag5" value="Friday" ref={register}/>
-            <label className='check-prefday' htmlFor="dag5">Vrijdag</label>
+        <input name={'email'} type="email" ref={register({required:true})}/>
+        {errors.email && <span>Dit veld is verplicht</span>}
+        <label className='label-title' htmlFor="prefWeek">Voorkeursweek</label>
+        <div className='prefWeek'>
+            <input name={'prefWeek'} type="week" id="week" ref={register}/>
         </div>
         <label className='label-title' htmlFor="prefTime">Voorkeurstijd</label>
         <div className='prefTime'>
@@ -40,9 +65,11 @@ export default function ContactForm() {
             <label className='check-preftime' htmlFor="option3">Avond</label>
         </div>
         <div className='contactformbtn'>
-        <button className='contact-form-button' type="submit">Maak een afspraak</button>
+        <button className='contact-form-button' type="submit" disabled={loading}>{loading ? 'Loading....' : 'Maak een afspraak'}</button>
+            {error && <p>{error}</p>}
         </div>
     </form>
+            </>
 );
 }
 

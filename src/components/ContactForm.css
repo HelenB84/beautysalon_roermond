@@ -8,12 +8,12 @@
     margin-top: 2rem;
 }
 
-.prefDays, .prefTime{
+.prefWeek, .prefTime{
     margin-top: 5px;
     margin-right: 10px;
 }
 
-.check-prefday, .check-preftime{
+.check-prefweek, .check-preftime{
     margin-left: 5px;
     margin-right: 10px;
 
@@ -21,6 +21,7 @@
 
 .label-title{
     text-transform: uppercase;
+    font-weight: 500;
     margin-top: 20px;
 }
 
@@ -41,5 +42,24 @@
     display: flex;
     justify-content: center;
     margin-top: 1.5rem;
+}
+
+span{
+    color: red;
+    background-color: #D9E0E0;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.success{
+    color: #648081;
+    background-color: #ffff;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 1rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+
+
 }
 
