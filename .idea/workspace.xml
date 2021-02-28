@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="108d7198-131c-4929-a2d7-3020c603356c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/kopie/kopieBSwebsite.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/achtergrondafbeeldingilse.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/achtergrondafbeeldingilse.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/appointbarpic.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/appointbarpic.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/harsen.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/harsen.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/masker.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/masker.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/massage.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/massage.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/nails.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/nails.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +45,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/kopie" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -52,12 +57,12 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components/kopie" />
       <recent name="$PROJECT_DIR$/src/assets" />
+      <recent name="$PROJECT_DIR$/src/components/kopie" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/assets" />
+      <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/components/Navbar" />
       <recent name="$PROJECT_DIR$/src/pages" />
     </key>
@@ -116,6 +121,10 @@
       <workItem from="1614506349489" duration="831000" />
       <workItem from="1614516009108" duration="2263000" />
       <workItem from="1614525899251" duration="5000" />
+      <workItem from="1614525910549" duration="102000" />
+      <workItem from="1614526517694" duration="586000" />
+      <workItem from="1614530798629" duration="1022000" />
+      <workItem from="1614532532791" duration="776000" />
     </task>
     <task id="LOCAL-00001" summary="Pages and Router added">
       <created>1611830693207</created>
@@ -229,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614506789368</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="added readme.md">
+      <created>1614525975965</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1614525975965</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,6 +281,7 @@
     <MESSAGE value="added dashboard" />
     <MESSAGE value="added authentication, login and signup forms and pages" />
     <MESSAGE value="added" />
-    <option name="LAST_COMMIT_MESSAGE" value="added" />
+    <MESSAGE value="added readme.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="added readme.md" />
   </component>
 </project>
