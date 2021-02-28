@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css'
+import {Link} from 'react-router-dom';
 import Header from "../components/Header";
 import masker from '../assets/masker.jpg'
 import massage from '../assets/massage.jpg'
@@ -15,10 +16,18 @@ export default function Home(){
                 <h1 className='behandelingen-home'>BEHANDELINGEN</h1>
                     <h3 className='behandelingen-home-text1'>MAAK EEN AFSPRAAK EN IK REGEL DE REST</h3>
                 <div className='pics-home'>
+                    <Link to='gezichtsbehandelingen' className='links-treatment'>
                         <img className='masker' src={masker} alt="gezichtsmasker"/>
+                    </Link>
+                    <Link to='massage' className='links-treatment'>
                         <img className='massage' src={massage} alt="massage"/>
+                    </Link>
+                    <Link to='harsen' className='links-treatment'>
                         <img className='harsen' src={harsen} alt="harsen"/>
+                    </Link>
+                    <Link to='manicure' className='links-treatment'>
                         <img className='nails' src={nails} alt="nagels"/>
+                    </Link>
                 </div>
                 <div className='texts-home'>
                     <h3 className='face-text'>GEZICHTSBEHANDELINGEN</h3>

@@ -4,7 +4,7 @@
     align-items: baseline;
     justify-content: flex-start;
     background-image: url("../assets/achtergrondafbeeldingilse.jpg");
-    background-size: 100% 100%;
+    background-size: cover;
     height: 100vh;
     width: auto;
 }
